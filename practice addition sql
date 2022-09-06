@@ -1,0 +1,11 @@
+DECLARE
+     a number :=10;
+     b number :=20;
+     c number;
+     
+BEGIN
+    c := a+b;
+     dbms_output.put_line('sum is:' || c);
+     
+END;
+/
